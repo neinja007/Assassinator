@@ -3,8 +3,8 @@ import { Rubik } from 'next/font/google';
 const rubik = Rubik({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'PROJECT NAME',
-  description: 'PROJECT DESCRIPTION'
+  title: 'Votinator',
+  description: 'Die #1 Plattform für Umfragen, Abstimmungen, und Quizzes.'
 };
 
 const RootLayout = ({
