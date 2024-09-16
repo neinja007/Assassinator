@@ -1,6 +1,6 @@
 {
-  "short_name": "project-name",
-  "name": "project-name",
+  "short_name": "votinator",
+  "name": "votinator",
   "icons": [
     {
       "src": "/favicon-192x192.png",
