@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Rubik } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 const rubik = Rubik({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ const RootLayout = ({
           <div className='container mx-auto'>{children}</div>
         </div>
       </body>
+      <Analytics />
     </html>
   );
 };
