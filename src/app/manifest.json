@@ -3,8 +3,8 @@
   "name": "votinator",
   "icons": [
     {
-      "src": "/favicon-192x192.png",
-      "sizes": "192x192",
+      "src": "/favicon.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ],
