@@ -1,13 +1,12 @@
-import { metadata } from '@/data/metadata';
-import '@/app/globals.css';
-import Link from 'next/link';
+import CreateRoom from '@/components/CreateRoom';
+import RoomList from '@/components/RoomList';
 
 export default function Home() {
   return (
-    <div>
-      <h1 className='text-center text-4xl font-bold'>{metadata.title}</h1>
-
-      <Link href='/game'>Game</Link>
+    <div className='container mx-auto p-4'>
+      <h1 className='mb-4 text-2xl font-bold'>Room Control Dashboard</h1>
+      <CreateRoom />
+      <RoomList />
     </div>
   );
 }
